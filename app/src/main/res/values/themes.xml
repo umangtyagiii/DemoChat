@@ -1,0 +1,16 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Step 1: Define YourAppParentTheme with CometChat as parent -->
+    <style name="YourAppParentTheme" parent="CometChatTheme.DayNight" />
+
+    <!-- Step 2: Make your Base theme inherit from YourAppParentTheme -->
+    <style name="Base.Theme.DemoChat" parent="YourAppParentTheme">
+        <!-- You can customize your theme here -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <!-- Step 3: Final app theme -->
+    <style name="Theme.DemoChat" parent="Base.Theme.DemoChat" />
+
+</resources>
+
